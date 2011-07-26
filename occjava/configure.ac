@@ -71,7 +71,7 @@ LDFLAGS="${LDFLAGS} -L$occlib"
 # to the libs we need, without their dependencies.
 eval "$shlibpath_var=\${$shlibpath_var}\${${shlibpath_var}:+:}\$occlib"
 export $shlibpath_var
-LIBS="${LIBS} -lTKBRep -lTKBool -lTKG2d -lTKG3d -lTKGeomBase -lTKIGES -lTKMath -lTKOffset -lTKXSBase -lTKernel -lTKSTEP -lTKPrim -lTKTopAlgo -lTKFillet"
+LIBS="${LIBS} -lTKBRep -lTKBool -lTKG2d -lTKG3d -lTKGeomBase -lTKIGES -lTKMath -lTKOffset -lTKXSBase -lTKernel -lTKSTEP -lTKPrim -lTKTopAlgo -lTKFillet -lTKXCAF -lTKXDESTEP"
 
 if test -r "$occlib/libTKMesh.so"
 then

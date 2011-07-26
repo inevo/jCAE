@@ -73,6 +73,7 @@
 %include "APIHeaderSection_MakeHeader.i"
 // This one require Opencascade 6.2
 %include "ShapeUpgrade.i"
+%include "CAFControl_Reader.i"
 
 %typemap(javacode) TopExp
 %{
